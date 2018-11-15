@@ -1,0 +1,17 @@
+{
+  "name": "keymaster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./playground.ts"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^5.2.0",
+    "ethereumjs-wallet": "^0.6.2",
+    "secp256k1": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.3"
+  }
+}
